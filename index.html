@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="arth.css"/>
+    <script src="arithop.js"></script>
+    
+</head>
+<body style="background-image: url('calc.jpeg.png');background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+    <h1>Web Basic Calculator</h1>
+   
+        <table border="2px" id="t" align="center">
+            <tr>
+                <td>First Number</td>
+                <td><input type="text" id="v1" placeholder="enter number" /></td>
+            </tr>
+            <tr>
+                <td>Second Number</td>
+                <td><input type="text" id="v2" placeholder="enter number" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="p" value="ADD" onclick="add()"/>
+                    <input type="submit" id="p" value="SUB" onclick="sub()"/>
+                    <input type="submit" id="p" value="MUL" onclick="mul()"/>
+                </td>  
+            </tr>
+            <tr> 
+                <td colspan="2">
+                    <h6>Result:</h6><p id="result"></p>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>

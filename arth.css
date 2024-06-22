@@ -1,0 +1,42 @@
+form{
+    margin-top:100px;
+    margin-bottom: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+table{
+    border-radius: 3px;
+    border-color: #00509E; /* Updated to a shade of blue */
+    box-sizing: content-box;
+    font-size: larger; 
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for better readability */
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: #00203F; /* Darker shade of blue */
+}
+td{
+    color: #00203F; /* Darker shade of blue */
+    font-size: larger;
+}
+#v1, #v2{
+    background-color: #DFF6FF; /* Light blue background */
+    color: #00203F; /* Darker shade of blue for text */
+}
+#p{
+    margin-left: 40px;
+    background-color: #00509E; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p{
+    margin-left: 70px;
+}
+h6 {
+    color: #E94F37; /* Coral color for Result label */
+}
